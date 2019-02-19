@@ -14,10 +14,10 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term xfce4-terminal
+set $term terminology
 # Your preferred application launcher
-#set $menu dmenu_run
-set $menu j4-dmenu-desktop --dmenu="dmenu -i -l 30" --display-binary
+set $menu dmenu_run
+#set $menu j4-dmenu-desktop --dmenu="dmenu -i -l 30" --display-binary
 
 ### Output configuration
 #
