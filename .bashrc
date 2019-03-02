@@ -12,6 +12,8 @@ parse_git_branch() {
 alias ls='ls --color=auto'
 PS1="\u@\h \w\$(parse_git_branch)\n\$ "
 
+PATH=$PATH:~/bin
+
 HISTCONTROL=erasedups:ignorespace
 HISTSIZE=10000 
 shopt -s histappend
