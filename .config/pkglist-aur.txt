@@ -1,7 +1,6 @@
 aic94xx-firmware
 android-sdk
 android-studio
-aria2-git
 bsdmainutils
 dtach
 fonts-tlwg
@@ -9,10 +8,6 @@ heimdall
 heroku-cli
 icaclient
 minio-client
-profile-sync-daemon
-sway-git
 tor-browser
-vlc-git
 wd719x-firmware
-xmoto-git
 yay

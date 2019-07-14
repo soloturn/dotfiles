@@ -92,7 +92,6 @@ iotop
 iproute2
 iputils
 jdk-openjdk
-jdk10-openjdk
 jfsutils
 jxrlib
 k3b
@@ -111,6 +110,7 @@ libunrar
 libwmf
 licenses
 linux
+linux-firmware
 linux-lts
 liteide
 logrotate
@@ -145,6 +145,7 @@ optipng
 opus-tools
 orage
 p7zip
+pacman
 pacman-contrib
 parole
 patch
@@ -189,7 +190,6 @@ python2-six
 python2-unrardll
 python2-webencodings
 qiv
-qt4
 qt5-wayland
 qt5ct
 refind-efi
@@ -209,7 +209,6 @@ strace
 sudo
 sysfsutils
 systemd-sysvcompat
-systemsettings
 tar
 terminology
 tesseract
@@ -232,7 +231,6 @@ unrar
 usbutils
 util-linux
 vi
-vim
 wayland
 weston
 wget
@@ -282,7 +280,6 @@ xfwm4
 xfwm4-themes
 xorg-server
 xorg-server-xvfb
-xorg-server-xwayland
 xorg-xeyes
 xorg-xhost
 xorg-xinit
@@ -290,4 +287,3 @@ xournalpp
 yarn
 youtube-dl
 zip
-zstd
