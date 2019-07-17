@@ -1,5 +1,4 @@
 acpi_call
-alacritty
 android-tools
 ant
 arch-audit
@@ -79,7 +78,6 @@ grsync
 gst-libav
 gst-plugins-ugly
 gtk-xfce-engine
-guake
 gvfs-mtp
 gzip
 handbrake
@@ -212,7 +210,6 @@ sway
 sysfsutils
 systemd-sysvcompat
 tar
-terminology
 tesseract
 testdisk
 texinfo
