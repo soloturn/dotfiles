@@ -12,6 +12,7 @@ automake
 avidemux-qt
 bash
 bind-tools
+binutils
 bison
 bzip2
 calibre
@@ -207,6 +208,7 @@ sip
 smartmontools
 strace
 sudo
+sway
 sysfsutils
 systemd-sysvcompat
 tar
