@@ -132,7 +132,6 @@ mumble
 mupdf
 nano
 nautilus
-nemo
 neovim
 netctl
 nginx
@@ -213,10 +212,6 @@ tar
 tesseract
 testdisk
 texinfo
-thunar
-thunar-archive-plugin
-thunar-media-tags-plugin
-thunar-volman
 tk
 tlp
 tmux
@@ -273,7 +268,6 @@ xfce4-weather-plugin
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
 xfconf
-xfdesktop
 xfsprogs
 xfwm4
 xfwm4-themes
