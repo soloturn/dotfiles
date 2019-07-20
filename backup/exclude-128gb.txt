@@ -1,0 +1,4 @@
+/*/Downloads
+/*/.*
+/128gb-no-space
+
