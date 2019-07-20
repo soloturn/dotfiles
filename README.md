@@ -8,3 +8,4 @@ git checkout master
 git reset --hard origin/master
 git remote set-url origin git@github.com:soloturn/dotfiles.git
 ```
+
