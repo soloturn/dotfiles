@@ -137,6 +137,7 @@ network-manager-applet
 nginx
 nmap
 noto-fonts-cjk
+npm
 ntfs-3g
 openssh
 optipng
