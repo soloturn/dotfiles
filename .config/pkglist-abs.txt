@@ -128,7 +128,6 @@ mpv
 mtools
 mtr
 mumble
-mupdf
 nano
 nautilus
 neovim
