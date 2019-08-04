@@ -80,6 +80,7 @@ gst-plugins-ugly
 gvfs-mtp
 gzip
 handbrake
+hardinfo
 hexchat
 htop
 inetutils
