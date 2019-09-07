@@ -69,6 +69,7 @@ gnome-screenshot
 gnome-shell
 gnome-sound-recorder
 gnome-terminal
+gnome-tweaks
 go
 gobject-introspection
 gparted
@@ -112,7 +113,6 @@ licenses
 linux
 linux-firmware
 linux-lts
-liteide
 logrotate
 lsof
 lvm2
@@ -137,6 +137,7 @@ network-manager-applet
 nginx
 nmap
 noto-fonts-cjk
+noto-fonts-emoji
 npm
 ntfs-3g
 openssh
