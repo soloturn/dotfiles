@@ -46,6 +46,7 @@ file-roller
 filesystem
 findutils
 firefox
+fish
 flashplugin
 flatpak
 flex
@@ -233,6 +234,7 @@ wpa_supplicant
 xf86-input-libinput
 xfce4-terminal
 xfsprogs
+xonsh
 xorg-server
 xorg-server-xvfb
 xorg-xeyes
