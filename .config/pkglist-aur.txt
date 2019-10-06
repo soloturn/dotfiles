@@ -7,7 +7,9 @@ fonts-tlwg
 heimdall
 heroku-cli
 icaclient
+kino
 minio-client
+makemkv
 tor-browser
 wd719x-firmware
 yay
