@@ -9,6 +9,7 @@ atop
 autoconf
 automake
 avidemux-qt
+base
 bash
 bind-tools
 binutils
@@ -83,6 +84,7 @@ gvfs-mtp
 gzip
 handbrake
 hardinfo
+heimdall
 hexchat
 htop
 inetutils
