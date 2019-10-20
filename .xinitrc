@@ -55,7 +55,7 @@ case $session in
     i3|i3wm           ) exec i3;;
     icewm             ) exec icewm-session;;
     jwm               ) exec jwm;;
-    kde               ) exec startkde;;
+    kde               ) exec startplasma-x11;;
     mate              ) exec mate-session;;
     monster|monsterwm ) exec monsterwm;;
     notion            ) exec notion;;
