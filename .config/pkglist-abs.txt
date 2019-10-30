@@ -1,6 +1,5 @@
 acpi_call
 android-tools
-ant
 arch-audit
 arch-install-scripts
 arp-scan
@@ -26,7 +25,6 @@ coreutils
 cryptsetup
 cups
 darktable
-dav1d
 dconf-editor
 device-mapper
 dhcpcd
