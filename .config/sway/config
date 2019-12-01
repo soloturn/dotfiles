@@ -45,6 +45,8 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 # resumed. It will also lock your screen before your computer goes to sleep.
 
 ### Input configuration
+    input * xkb_layout "ch"
+
 #
 # Example configuration:
 #
