@@ -1,4 +1,4 @@
-# Defaulm config for sway
+# Default config for sway
 #
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
@@ -14,10 +14,10 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term terminology
+set $term urxvt
 # Your preferred application launcher
-set $menu dmenu_run
-#set $menu j4-dmenu-desktop --dmenu="dmenu -i -l 30" --display-binary
+# Note: it's recommended that you pass the final command to sway
+set $menu dmenu_path | dmenu | xargs swaymsg exec --
 
 ### Output configuration
 #
@@ -29,6 +29,20 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
+
+### Idle configuration
+#
+# Example configuration:
+#
+# exec swayidle -w \
+#          timeout 300 'swaylock -f -c 000000' \
+#          timeout 600 'swaymsg "output * dpms off"' \
+#               resume 'swaymsg "output * dpms on"' \
+#          before-sleep 'swaylock -f -c 000000'
+#
+# This will lock your screen after 300 seconds of inactivity, then turn off
+# your displays after another 300 seconds, and turn your screens back on when
+# resumed. It will also lock your screen before your computer goes to sleep.
 
 ### Input configuration
 #
@@ -48,13 +62,13 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #
 # Basics:
 #
-    # start a terminal
+    # Start a terminal
     bindsym $mod+Return exec $term
 
-    # kill focused window
+    # Kill focused window
     bindsym $mod+Shift+q kill
 
-    # start your launcher
+    # Start your launcher
     bindsym $mod+d exec $menu
 
     # Drag floating windows by holding down $mod and left mouse button.
@@ -64,11 +78,11 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     # mouse button for dragging.
     floating_modifier $mod normal
 
-    # reload the configuration file
+    # Reload the configuration file
     bindsym $mod+Shift+c reload
 
-    # exit sway (logs you out of your wayland session)
-    bindsym $mod+Shift+e exit
+    # Exit sway (logs you out of your Wayland session)
+    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
 #
 # Moving around:
 #
@@ -77,18 +91,18 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     bindsym $mod+$down focus down
     bindsym $mod+$up focus up
     bindsym $mod+$right focus right
-    # or use $mod+[up|down|left|right]
+    # Or use $mod+[up|down|left|right]
     bindsym $mod+Left focus left
     bindsym $mod+Down focus down
     bindsym $mod+Up focus up
     bindsym $mod+Right focus right
 
-    # _move_ the focused window with the same, but add Shift
+    # Move the focused window with the same, but add Shift
     bindsym $mod+Shift+$left move left
     bindsym $mod+Shift+$down move down
     bindsym $mod+Shift+$up move up
     bindsym $mod+Shift+$right move right
-    # ditto, with arrow keys
+    # Ditto, with arrow keys
     bindsym $mod+Shift+Left move left
     bindsym $mod+Shift+Down move down
     bindsym $mod+Shift+Up move up
@@ -96,7 +110,7 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #
 # Workspaces:
 #
-    # switch to workspace
+    # Switch to workspace
     bindsym $mod+1 workspace 1
     bindsym $mod+2 workspace 2
     bindsym $mod+3 workspace 3
@@ -107,7 +121,7 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     bindsym $mod+8 workspace 8
     bindsym $mod+9 workspace 9
     bindsym $mod+0 workspace 10
-    # move focused container to workspace
+    # Move focused container to workspace
     bindsym $mod+Shift+1 move container to workspace 1
     bindsym $mod+Shift+2 move container to workspace 2
     bindsym $mod+Shift+3 move container to workspace 3
@@ -143,7 +157,7 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     # Swap focus between the tiling area and the floating area
     bindsym $mod+space focus mode_toggle
 
-    # move focus to the parent container
+    # Move focus to the parent container
     bindsym $mod+a focus parent
 #
 # Scratchpad:
@@ -165,18 +179,18 @@ mode "resize" {
     # right will grow the containers width
     # up will shrink the containers height
     # down will grow the containers height
-    bindsym $left resize shrink width 10 px or 10 ppt
-    bindsym $down resize grow height 10 px or 10 ppt
-    bindsym $up resize shrink height 10 px or 10 ppt
-    bindsym $right resize grow width 10 px or 10 ppt
+    bindsym $left resize shrink width 10px
+    bindsym $down resize grow height 10px
+    bindsym $up resize shrink height 10px
+    bindsym $right resize grow width 10px
 
-    # ditto, with arrow keys
-    bindsym Left resize shrink width 10 px or 10 ppt
-    bindsym Down resize grow height 10 px or 10 ppt
-    bindsym Up resize shrink height 10 px or 10 ppt
-    bindsym Right resize grow width 10 px or 10 ppt
+    # Ditto, with arrow keys
+    bindsym Left resize shrink width 10px
+    bindsym Down resize grow height 10px
+    bindsym Up resize shrink height 10px
+    bindsym Right resize grow width 10px
 
-    # return to default mode
+    # Return to default mode
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
@@ -188,6 +202,11 @@ bindsym $mod+r mode "resize"
 # Read `man 5 sway-bar` for more information about this section.
 bar {
     position top
+
+    # When the status_command prints a new line to stdout, swaybar updates.
+    # The default just shows the current date and time.
+    status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
+
     colors {
         statusline #ffffff
         background #323232
@@ -196,4 +215,3 @@ bar {
 }
 
 include /etc/sway/config.d/*
-
