@@ -15,3 +15,6 @@ sudo rsync --dry-run -arvu /run/media/rt/233-root-home/home/rt/ /home/rt/
 sudo rsync --dry-run -arvu --delete --exclude-from /home/rt/backup/exclude-w10.txt /run/media/rt/FC021465021426E4/Users/hawa/ /run/media/rt/home/backup/sony-vaio/hawa/
 sudo rsync --dry-run -arvu --delete --exclude-from /home/rt/backup/exclude-w10.txt /run/media/rt/1E46F3D146F3A823/Users/hawa/ /run/media/rt/home/backup/sony-vaio/hawa-w10/
 
+  lrpc 
+rsync -arvu --exclude-from ~/backup/exclude-stube.txt et@stube:/home/et/ '/run/media/rt/1tb-home/backup/et-stube'
+
