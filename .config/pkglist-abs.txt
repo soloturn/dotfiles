@@ -25,6 +25,7 @@ coreutils
 cryptsetup
 cups
 darktable
+dav1d
 dconf-editor
 device-mapper
 dhcpcd
@@ -34,6 +35,7 @@ dmenu
 docker
 dos2unix
 e2fsprogs
+eog
 epiphany
 evince
 f2fs-tools
@@ -49,6 +51,7 @@ fish
 flashplugin
 flatpak
 flex
+freeglut
 fzf
 gawk
 gcc
@@ -68,6 +71,7 @@ gnome-keyring
 gnome-screenshot
 gnome-shell
 gnome-sound-recorder
+gnome-subtitles
 gnome-terminal
 gnome-tweaks
 go
@@ -97,11 +101,9 @@ jfsutils
 jxrlib
 k3b
 kate
-kdenlive
 kdiff3
 kolourpaint
 krita
-kwave
 less
 libdvdcss
 libdvdread
@@ -124,8 +126,8 @@ man-pages
 mathjax
 maven
 mdadm
+meson
 moreutils
-mousepad
 mpv
 mtools
 mtr
@@ -150,6 +152,8 @@ pacman-contrib
 patch
 pavucontrol
 pciutils
+pdfarranger
+pdftk
 pekwm
 perf
 perl
@@ -168,7 +172,6 @@ python2-cssselect
 python2-dateutil
 python2-dbus
 python2-dnspython
-python2-dukpy
 python2-enum34
 python2-html5-parser
 python2-html5lib
@@ -202,6 +205,7 @@ shotwell
 simple-scan
 simplescreenrecorder
 sip
+slurp
 smartmontools
 strace
 sudo
@@ -210,17 +214,17 @@ sysfsutils
 systemd-sysvcompat
 tar
 tesseract
-testdisk
 texinfo
 tk
 tlp
 tmux
 totem
 transmission-gtk
+ttf-carlito
 ttf-indic-otf
 ttf-liberation
 ttf-ubuntu-font-family
-tumbler
+udftools
 unrar
 usbutils
 util-linux

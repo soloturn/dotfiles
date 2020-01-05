@@ -1,15 +1,11 @@
 aic94xx-firmware
 android-sdk
-android-studio
 bsdmainutils
 dtach
-fonts-tlwg
-heimdall
-heroku-cli
 icaclient
+jabref-git
 kino
-minio-client
-makemkv
+pixbuf-webp-thumbnailer
 tor-browser
 wd719x-firmware
 yay
