@@ -96,6 +96,7 @@ intellij-idea-community-edition
 iotop
 iproute2
 iputils
+java-commons-lang
 jdk-openjdk
 jfsutils
 jxrlib

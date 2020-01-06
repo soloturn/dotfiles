@@ -8,4 +8,5 @@ kino
 pixbuf-webp-thumbnailer
 tor-browser
 wd719x-firmware
+xv
 yay
