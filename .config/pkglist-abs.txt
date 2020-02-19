@@ -26,6 +26,7 @@ cryptsetup
 cups
 darktable
 dav1d
+dbus-broker
 dconf-editor
 device-mapper
 dhcpcd
@@ -211,11 +212,13 @@ smartmontools
 strace
 sudo
 sway
+swaylock
 sysfsutils
 systemd-sysvcompat
 tar
 tesseract
 texinfo
+texlive-publishers
 tk
 tlp
 tmux
