@@ -58,6 +58,7 @@ gawk
 gcc
 gcc-libs
 gdb
+gdm
 gedit
 gedit-plugins
 geeqie
@@ -218,7 +219,6 @@ systemd-sysvcompat
 tar
 tesseract
 texinfo
-texlive-publishers
 tk
 tlp
 tmux
