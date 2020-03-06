@@ -6,6 +6,7 @@ icaclient
 jabref-git
 kino
 pixbuf-webp-thumbnailer
+spotify
 tor-browser
 wd719x-firmware
 xv
