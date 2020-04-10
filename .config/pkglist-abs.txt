@@ -39,6 +39,7 @@ e2fsprogs
 eog
 epiphany
 evince
+evolution
 f2fs-tools
 fakeroot
 feh
@@ -84,6 +85,7 @@ grep
 grsync
 gst-libav
 gst-plugins-ugly
+gvfs-google
 gvfs-mtp
 gzip
 handbrake
