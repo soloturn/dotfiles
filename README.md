@@ -29,3 +29,8 @@ sign pdf page 5
 sign-pdf in.pdf 5 transparent.png
 ```
 
+split and concat video
+```
+fmpeg -i input.mp4 -t 0:03:56 -c copy a.mp4 -ss 0:07:36 -t 0:36:00 -c copy b.mp4 -ss 0:51:40 -t 0:24:00 -c copy c.mp4 -ss 1:21:36 -to 1:46:17 -c copy d.mp4 -ss 1:52:05 -to 2:13:27 -c copy e.mp4 -ss 2:19:51 -to 02:33:46 -c copy out.mp4
+ffmpeg -f concat -safe 0 -i con1.txt -c copy nfs1.mp4
+```
