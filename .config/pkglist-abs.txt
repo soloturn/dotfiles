@@ -24,7 +24,6 @@ code
 coreutils
 cryptsetup
 cups
-darktable
 dav1d
 dbus-broker
 dconf-editor
@@ -33,7 +32,6 @@ dhcpcd
 dialog
 diffutils
 dmenu
-docker
 dos2unix
 e2fsprogs
 eog
@@ -164,6 +162,7 @@ perf
 perl
 pitivi
 pkgconf
+podman
 podofo
 powertop
 procps-ng
@@ -199,13 +198,13 @@ python2-webencodings
 qiv
 qt5-wayland
 qt5ct
-refind-efi
+rav1e
+refind
 reiserfsprogs
 rsync
 rxvt-unicode
 s-nail
 sed
-shadow
 shotwell
 simple-scan
 simplescreenrecorder
