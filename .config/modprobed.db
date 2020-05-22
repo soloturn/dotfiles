@@ -92,10 +92,14 @@ snd_hda_codec_realtek
 snd_hda_core
 snd_hda_ext_core
 snd_hda_intel
+snd_hrtimer
 snd_hwdep
 snd_intel_dspcfg
 snd_pcm
 snd_pcm_dmaengine
+snd_seq
+snd_seq_device
+snd_seq_dummy
 snd_soc_acpi
 snd_soc_acpi_intel_match
 snd_soc_core
