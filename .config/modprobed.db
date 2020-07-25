@@ -1,6 +1,7 @@
 8021q
 ac
 ac97_bus
+acpi_call
 aesni_intel
 agpgart
 ahci
@@ -113,6 +114,7 @@ pcspkr
 pktcdvd
 psmouse
 raid6_pq
+rapl
 rc_core
 rfkill
 rng_core

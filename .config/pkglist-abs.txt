@@ -10,7 +10,7 @@ automake
 avidemux-qt
 base
 bash
-bind-tools
+bind
 binutils
 bison
 bzip2
@@ -34,7 +34,6 @@ dkms
 dmenu
 dos2unix
 e2fsprogs
-electron
 eog
 epiphany
 evince
@@ -100,7 +99,6 @@ iotop
 iproute2
 iputils
 java-commons-lang
-java-openjfx
 jdk-openjdk
 jfsutils
 jxrlib
