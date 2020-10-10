@@ -20,6 +20,7 @@ chrome-gnome-shell
 chromium
 cmus
 code
+coolreader
 coreutils
 cryptsetup
 cups
@@ -37,7 +38,6 @@ e2fsprogs
 eog
 epiphany
 evince
-evolution
 f2fs-tools
 fakeroot
 feh
@@ -108,6 +108,7 @@ kdiff3
 kolourpaint
 krita
 less
+libaacs
 libdvdcss
 libdvdread
 libgexiv2
@@ -188,6 +189,7 @@ simplescreenrecorder
 sip
 slurp
 smartmontools
+steam
 strace
 sudo
 sway
@@ -197,6 +199,7 @@ systemd-sysvcompat
 tar
 tesseract
 texinfo
+the_silver_searcher
 tk
 tlp
 tmux

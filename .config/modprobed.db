@@ -5,6 +5,7 @@ acpi_call
 aesni_intel
 agpgart
 ahci
+at24
 atkbd
 battery
 blake2b_generic
@@ -40,12 +41,14 @@ hid_multitouch
 hid_plantronics
 i2c_algo_bit
 i2c_i801
+i2c_smbus
 i8042
 i915
 input_leds
 intel_cstate
 intel_gtt
 intel_pch_thermal
+intel_pmc_bxt
 intel_powerclamp
 intel_rapl_common
 intel_rapl_msr
@@ -81,6 +84,7 @@ libata
 libcrc32c
 libps2
 llc
+loop
 mac80211
 mac_hid
 mbcache
@@ -183,6 +187,7 @@ x86_pkg_temp_thermal
 xfs
 xhci_hcd
 xhci_pci
+xhci_pci_renesas
 xor
 x_tables
 xt_addrtype
