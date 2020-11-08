@@ -11,6 +11,7 @@ battery
 blake2b_generic
 btrfs
 ccm
+cdc_acm
 cdrom
 cec
 cfg80211
