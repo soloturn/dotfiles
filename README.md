@@ -41,4 +41,7 @@ ffmpeg -f concat -safe 0 -i con1.txt -c copy nfs1.mp4
 a [live visualization with d3, e.g. fetch-rebase](http://onlywei.github.io/explain-git-with-d3/#fetchrebase).
 the ones who wondered what the index is for, its power lies in ```git add -i```.
 
+## programming
+bjarne stroustrup on [comments, should be the intent](https://youtu.be/fX2W3nNjJIo?t=3709). if commenad and 
+code disagrees, both are probably wrong.
 

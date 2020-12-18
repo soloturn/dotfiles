@@ -115,6 +115,7 @@ nls_cp437
 nls_iso8859_1
 nls_utf8
 nvram
+overlay
 pcspkr
 pktcdvd
 psmouse
