@@ -13,6 +13,7 @@ bash
 bind
 binutils
 bison
+brasero
 bzip2
 certbot
 chmlib
@@ -33,6 +34,8 @@ dialog
 diffutils
 dkms
 dmenu
+docker
+docker-compose
 dos2unix
 e2fsprogs
 eog
@@ -73,7 +76,6 @@ gnome-passwordsafe
 gnome-screenshot
 gnome-shell
 gnome-sound-recorder
-gnome-subtitles
 gnome-terminal
 gnome-tweaks
 gobject-introspection
@@ -83,7 +85,9 @@ grep
 grsync
 gst-libav
 gst-plugins-ugly
+gvfs-afc
 gvfs-google
+gvfs-gphoto2
 gvfs-mtp
 gzip
 handbrake
@@ -105,6 +109,7 @@ jxrlib
 k3b
 kate
 kdiff3
+knights
 kolourpaint
 krita
 less
@@ -186,7 +191,7 @@ sed
 shotwell
 simple-scan
 simplescreenrecorder
-sip
+sip4
 slurp
 smartmontools
 steam
@@ -217,6 +222,7 @@ util-linux
 vi
 vlc
 wayland
+webp-pixbuf-loader
 weston
 wget
 which

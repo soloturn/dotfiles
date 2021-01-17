@@ -5,11 +5,20 @@ acpi_call
 aesni_intel
 agpgart
 ahci
+apple_mfi_fastcharge
 at24
 atkbd
 battery
 blake2b_generic
+bluetooth
+bpf_preload
+bridge
+br_netfilter
+btbcm
+btintel
 btrfs
+btrtl
+btusb
 ccm
 cdc_acm
 cdrom
@@ -28,6 +37,8 @@ crypto_user
 drm
 drm_kms_helper
 e1000e
+ecc
+ecdh_generic
 evdev
 ext4
 fat
@@ -62,6 +73,7 @@ ip6table_raw
 ip6_tables
 ip6t_REJECT
 ip6t_rt
+ipheth
 iptable_filter
 iptable_mangle
 iptable_nat
@@ -102,6 +114,7 @@ nf_conntrack
 nf_conntrack_broadcast
 nf_conntrack_ftp
 nf_conntrack_netbios_ns
+nf_conntrack_netlink
 nf_defrag_ipv4
 nf_defrag_ipv6
 nf_log_common
@@ -109,6 +122,7 @@ nf_log_ipv4
 nf_log_ipv6
 nf_nat
 nf_nat_ftp
+nfnetlink
 nf_reject_ipv4
 nf_reject_ipv6
 nls_cp437
@@ -134,6 +148,7 @@ sctp
 sd_mod
 serio
 serio_raw
+sg
 snd
 snd_compress
 snd_hda_codec
@@ -163,6 +178,10 @@ snd_timer
 snd_usb_audio
 snd_usbmidi_lib
 soundcore
+soundwire_bus
+soundwire_cadence
+soundwire_generic_allocation
+soundwire_intel
 sr_mod
 stp
 syscopyarea
@@ -177,7 +196,9 @@ udf
 usbhid
 usb_storage
 uvcvideo
+veth
 vfat
+video
 videobuf2_common
 videobuf2_memops
 videobuf2_v4l2
@@ -186,6 +207,8 @@ videodev
 wmi
 wmi_bmof
 x86_pkg_temp_thermal
+xfrm_algo
+xfrm_user
 xfs
 xhci_hcd
 xhci_pci
@@ -197,5 +220,7 @@ xt_conntrack
 xt_hl
 xt_limit
 xt_LOG
+xt_MASQUERADE
+xt_nat
 xt_recent
 xt_tcpudp
