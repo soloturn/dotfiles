@@ -152,7 +152,6 @@ nginx
 nmap
 noto-fonts-cjk
 noto-fonts-emoji
-npm
 ntfs-3g
 openssh
 optipng
@@ -194,7 +193,6 @@ simplescreenrecorder
 sip4
 slurp
 smartmontools
-steam
 strace
 sudo
 sway
@@ -237,6 +235,5 @@ xorg-xeyes
 xorg-xhost
 xorg-xinit
 xournalpp
-yarn
 youtube-dl
 zip
