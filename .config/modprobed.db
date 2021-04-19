@@ -73,6 +73,7 @@ ip6table_raw
 ip6_tables
 ip6t_REJECT
 ip6t_rt
+ip6_udp_tunnel
 ipheth
 iptable_filter
 iptable_mangle
@@ -171,6 +172,7 @@ snd_seq_dummy
 snd_soc_acpi
 snd_soc_acpi_intel_match
 snd_soc_core
+snd_soc_hdac_hda
 snd_soc_skl
 snd_soc_sst_dsp
 snd_soc_sst_ipc
@@ -193,6 +195,7 @@ tpm_tis
 tpm_tis_core
 uas
 udf
+udp_tunnel
 usbhid
 usb_storage
 uvcvideo
