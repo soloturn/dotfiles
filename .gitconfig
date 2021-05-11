@@ -11,17 +11,17 @@
 	email = soloturn@gmail.com
 
 [diff]
-        tool = kdiff3
+	tool = kdiff3
 [difftool]
-        prompt = false
-        keepBackup = false
-        trustExitCode = false
+	prompt = false
+	keepBackup = false
+	trustExitCode = false
 [merge]
-        tool = kdiff3
+	tool = kdiff3
 [mergetool]
-        prompt = false
-        keepBackup = false
-        keepTemporaries = false
+	prompt = false
+	keepBackup = false
+	keepTemporaries = false
 
 [pull]
 	rebase = true
