@@ -133,6 +133,7 @@ nvram
 overlay
 pcspkr
 pktcdvd
+platform_profile
 psmouse
 raid6_pq
 rapl
@@ -163,6 +164,7 @@ snd_hrtimer
 snd_hwdep
 snd_intel_dspcfg
 snd_intel_nhlt
+snd_intel_sdw_acpi
 snd_pcm
 snd_pcm_dmaengine
 snd_rawmidi

@@ -29,6 +29,7 @@ sign pdf page 5
 ```
 sign-pdf in.pdf 5 transparent.png
 ```
+also use libreoffice draw, scribus, okular
 
 split and concat video
 ```
