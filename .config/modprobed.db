@@ -21,6 +21,7 @@ btrtl
 btusb
 ccm
 cdc_acm
+cdc_ether
 cdrom
 cec
 cfg80211
@@ -65,6 +66,7 @@ intel_powerclamp
 intel_rapl_common
 intel_rapl_msr
 intel_rapl_perf
+intel_tcc_cooling
 intel_uncore
 intel_xhci_usb_role_switch
 ip6table_filter
@@ -108,6 +110,7 @@ mei_hdcp
 mei_me
 mei_wdt
 memstick
+mii
 mmc_core
 mousedev
 mrp
@@ -139,6 +142,7 @@ raid6_pq
 rapl
 rc_core
 rfkill
+rndis_host
 rng_core
 roles
 rtsx_pci
@@ -153,6 +157,7 @@ serio_raw
 sg
 snd
 snd_compress
+snd_ctl_led
 snd_hda_codec
 snd_hda_codec_generic
 snd_hda_codec_hdmi
@@ -199,6 +204,7 @@ uas
 udf
 udp_tunnel
 usbhid
+usbnet
 usb_storage
 uvcvideo
 veth
