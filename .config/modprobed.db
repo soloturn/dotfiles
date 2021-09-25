@@ -44,6 +44,7 @@ evdev
 ext4
 fat
 fb_sys_fops
+firmware_attributes_class
 fuse
 garp
 ghash_clmulni_intel
@@ -196,10 +197,12 @@ stp
 syscopyarea
 sysfillrect
 sysimgblt
+think_lmi
 thinkpad_acpi
 tpm
 tpm_tis
 tpm_tis_core
+ttm
 uas
 udf
 udp_tunnel

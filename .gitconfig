@@ -34,11 +34,13 @@
 [pull]
 	rebase = true
 
-[pager]
-    diff = delta
-    log = delta
-    reflog = delta
-    show = delta
+#[pager]
+#    diff = delta
+#    log = delta
+#    reflog = delta
+#    show = delta
+#    syntax-theme = Solarized (light)
+
 
 [user]
 	name = soloturn
