@@ -85,6 +85,7 @@ iptable_raw
 ip_tables
 ipt_REJECT
 irqbypass
+isofs
 iTCO_vendor_support
 iTCO_wdt
 iwlmvm
@@ -109,6 +110,7 @@ mc
 mei
 mei_hdcp
 mei_me
+mei_pxp
 mei_wdt
 memstick
 mii
@@ -133,6 +135,7 @@ nf_reject_ipv6
 nls_cp437
 nls_iso8859_1
 nls_utf8
+ntfs3
 nvram
 overlay
 pcspkr
