@@ -36,6 +36,9 @@ cryptd
 crypto_simd
 crypto_user
 drm
+drm_buddy
+drm_display_helper
+drm_dp_helper
 drm_kms_helper
 e1000e
 ecc
@@ -47,6 +50,7 @@ fb_sys_fops
 firmware_attributes_class
 fuse
 garp
+gf128mul
 ghash_clmulni_intel
 glue_helper
 hid
@@ -88,6 +92,7 @@ irqbypass
 isofs
 iTCO_vendor_support
 iTCO_wdt
+iwlmei
 iwlmvm
 iwlwifi
 jbd2
@@ -141,6 +146,8 @@ overlay
 pcspkr
 pktcdvd
 platform_profile
+polyval_clmulni
+polyval_generic
 psmouse
 raid6_pq
 rapl
@@ -159,6 +166,7 @@ sd_mod
 serio
 serio_raw
 sg
+sha512_ssse3
 snd
 snd_compress
 snd_ctl_led
@@ -182,8 +190,10 @@ snd_seq_device
 snd_seq_dummy
 snd_soc_acpi
 snd_soc_acpi_intel_match
+snd_soc_avs
 snd_soc_core
 snd_soc_hdac_hda
+snd_soc_hda_codec
 snd_soc_skl
 snd_soc_sst_dsp
 snd_soc_sst_ipc
@@ -206,6 +216,7 @@ tpm
 tpm_tis
 tpm_tis_core
 ttm
+tun
 uas
 udf
 udp_tunnel
@@ -221,6 +232,7 @@ videobuf2_memops
 videobuf2_v4l2
 videobuf2_vmalloc
 videodev
+vivaldi_fmap
 wmi
 wmi_bmof
 x86_pkg_temp_thermal

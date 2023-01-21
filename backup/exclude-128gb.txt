@@ -1,4 +1,26 @@
-/*/Downloads
-/*/.*
+Downloads
+.cache
+.config/chromium
+.config/Code - OSS
+.config/Electron
+.config/JetBrains
+.config/Microsoft
+.config/session
+.config/libreoffice
+.config/LosslessCut
+.config/qt5ct
+.config/pulse
+.config/session
+.config/skypeforlinux
+.config/transmission
+.dropbox
+.dropbox-dist
+.git
+.gradle
+.konan
+.java
+.local
+.mozilla
+.zoom
 /128gb-no-space
 
