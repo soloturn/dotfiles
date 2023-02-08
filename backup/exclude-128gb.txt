@@ -1,5 +1,6 @@
 Downloads
 .cache
+.cargo
 .config/chromium
 .config/Code - OSS
 .config/Electron
@@ -21,6 +22,8 @@ Downloads
 .java
 .local
 .mozilla
+.npm
+.vscode-oss
 .zoom
 /128gb-no-space
 
