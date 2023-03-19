@@ -35,6 +35,7 @@ crct10dif_pclmul
 cryptd
 crypto_simd
 crypto_user
+dm_mod
 drm
 drm_buddy
 drm_display_helper

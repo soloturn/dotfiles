@@ -1,0 +1,13 @@
+theme = "solarized_light"
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.lsp]
+display-messages = true
+
+[keys.normal]
+backspace = ["delete_char_backward"]
+del = ["delete_char_forward"]
+esc = ["collapse_selection", "keep_primary_selection"]
+ret = ["move_line_down", "goto_line_start"]
