@@ -1,5 +1,7 @@
 adduser
 aic94xx-firmware
+arianna
+calibre-plugin-dedrm
 dropbox
 dtach
 easytax-ag-2021
@@ -7,7 +9,6 @@ easytax-ag-2022
 flashplugin
 fonts-tlwg
 git-oxide
-gossip-git
 green-recorder-git
 knock-bin
 losslesscut-bin
@@ -16,7 +17,10 @@ modprobed-db
 mycrypto-bin
 nodejs-editly-git
 paru-bin
+pop-launcher
+python-sphinx-automodapi
 ripme
+rust-brotli
 shrinkpdf
 spotify
 teams

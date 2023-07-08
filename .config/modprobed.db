@@ -45,6 +45,7 @@ e1000e
 ecc
 ecdh_generic
 evdev
+exfat
 ext4
 fat
 fb_sys_fops
@@ -224,6 +225,7 @@ udp_tunnel
 usbhid
 usbnet
 usb_storage
+uvc
 uvcvideo
 veth
 vfat

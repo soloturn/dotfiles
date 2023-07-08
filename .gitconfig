@@ -41,6 +41,8 @@
 #    show = delta
 #    syntax-theme = Solarized (light)
 
+[push]
+	autoSetupRemote = true
 
 [user]
 	name = soloturn

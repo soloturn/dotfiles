@@ -1,7 +1,7 @@
 Downloads
 .cache
 .cargo
-.config/chromium
+.config
 .config/Code - OSS
 .config/Electron
 .config/JetBrains
@@ -14,6 +14,7 @@ Downloads
 .config/session
 .config/skypeforlinux
 .config/transmission
+.cr3/
 .dropbox
 .dropbox-dist
 .git
@@ -23,6 +24,7 @@ Downloads
 .local
 .mozilla
 .npm
+.rustup/
 .vscode-oss
 .zoom
 /128gb-no-space
