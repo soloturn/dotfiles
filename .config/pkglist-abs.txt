@@ -3,6 +3,7 @@ android-file-transfer
 android-tools
 arch-audit
 arch-install-scripts
+arianna
 arp-scan
 asp
 atop
@@ -112,7 +113,10 @@ iotop
 iproute2
 iputils
 java-commons-lang
+jdk11-openjdk
+jdk17-openjdk
 jdk8-openjdk
+just
 jxrlib
 k3b
 kamoso
@@ -172,6 +176,11 @@ pdftk
 pekwm
 perf
 perl
+pipewire-alsa
+pipewire-audio
+pipewire-jack
+pipewire-pulse
+pipewire-v4l2
 pitivi
 pkgconf
 pkgstats
@@ -231,6 +240,7 @@ util-linux
 uutils-coreutils
 vi
 vlc
+vulkan-intel
 wayland
 webp-pixbuf-loader
 wget

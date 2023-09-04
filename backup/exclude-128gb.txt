@@ -19,9 +19,11 @@ Downloads
 .dropbox-dist
 .git
 .gradle
+.groovy
 .konan
 .java
 .local
+.m2
 .mozilla
 .npm
 .rustup/
