@@ -25,6 +25,7 @@ cdc_ether
 cdrom
 cec
 cfg80211
+cmac
 coretemp
 crc16
 crc32c_generic
@@ -168,6 +169,8 @@ sd_mod
 serio
 serio_raw
 sg
+sha1_ssse3
+sha256_ssse3
 sha512_ssse3
 snd
 snd_compress

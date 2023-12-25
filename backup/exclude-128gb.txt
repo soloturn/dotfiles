@@ -1,6 +1,9 @@
 Downloads
+.android
+.audacity-data
 .cache
 .cargo
+.cmake
 .config
 .config/Code - OSS
 .config/Electron
@@ -15,18 +18,23 @@ Downloads
 .config/skypeforlinux
 .config/transmission
 .cr3/
+.docker
 .dropbox
 .dropbox-dist
 .git
 .gradle
 .groovy
+.ICAClient/
 .konan
 .java
+.lemminx
 .local
 .m2
 .mozilla
 .npm
+.rssowlnix*
 .rustup/
+.swt
 .vscode-oss
 .zoom
 /128gb-no-space

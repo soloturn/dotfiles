@@ -5,7 +5,6 @@ arch-audit
 arch-install-scripts
 arianna
 arp-scan
-asp
 atop
 autoconf
 automake
@@ -44,9 +43,10 @@ dust
 e2fsprogs
 eog
 epiphany
+espeakup
 evince
-exa
 exfatprogs
+eza
 f2fs-tools
 fakeroot
 fd
@@ -81,7 +81,6 @@ gitui
 glibc
 gnome-control-center
 gnome-keyring
-gnome-passwordsafe
 gnome-screenshot
 gnome-shell
 gnome-sound-recorder
@@ -113,6 +112,7 @@ iotop
 iproute2
 iputils
 java-commons-lang
+jdk-openjdk
 jdk11-openjdk
 jdk17-openjdk
 jdk8-openjdk
@@ -147,6 +147,8 @@ m4
 make
 man-db
 man-pages
+maven
+mcfly
 mdadm
 mold
 mpv
@@ -165,6 +167,7 @@ ntfs-3g
 openssh
 optipng
 opus-tools
+orca
 pacman
 pacman-contrib
 patch
@@ -205,6 +208,7 @@ rxvt-unicode
 s-nail
 sbctl
 seahorse
+secrets
 sed
 sg3_utils
 shotwell
@@ -239,6 +243,7 @@ usbutils
 util-linux
 uutils-coreutils
 vi
+vivid
 vlc
 vulkan-intel
 wayland
