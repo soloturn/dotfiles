@@ -113,9 +113,7 @@ iproute2
 iputils
 java-commons-lang
 jdk-openjdk
-jdk11-openjdk
 jdk17-openjdk
-jdk8-openjdk
 just
 jxrlib
 k3b
