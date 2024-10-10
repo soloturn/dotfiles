@@ -19,5 +19,10 @@ HISTSIZE=10000
 shopt -s histappend
 PROMPT_COMMAND="history -n; history -w; history -c; history -r; $PROMPT_COMMAND"
 
+export MCFLY_KEY_SCHEME=vim
+export MCFLY_LIGHT=TRUE
+eval "$(mcfly init bash)"
+
+
 umask 077
 
