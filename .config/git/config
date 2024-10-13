@@ -6,6 +6,13 @@
 
 	tree = forest --pretty=format:'%C(red)%h %C(magenta)(%ar) %C(blue)%an %C(reset)%s' --style=15 --reverse
 
+[core]
+	autocrlf = false
+	editor = helix
+	fscache = true
+	longpaths = true
+	symlinks = true
+
 [delta]
 #    features = side-by-side line-numbers decorations
 #    features = line-numbers decorations
@@ -48,5 +55,3 @@
 	name = soloturn
 	email = soloturn@gmail.com
 
-[core]
-	editor = helix
