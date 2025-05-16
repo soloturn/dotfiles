@@ -1,6 +1,8 @@
+Android
 Downloads
 .android
 .audacity-data
+.avidemux
 .cache
 .cargo
 .cmake
@@ -21,6 +23,8 @@ Downloads
 .docker
 .dropbox
 .dropbox-dist
+.dvdcss
+.FBReader
 .git
 .gradle
 .groovy
@@ -30,11 +34,16 @@ Downloads
 .lemminx
 .local
 .m2
+.macromedia
+.MakeMKV
+.mc
 .mozilla
 .npm
+.openjfx
 .rssowlnix*
 .rustup/
 .swt
+.*terasology*
 .vscode-oss
 .zoom
 /128gb-no-space
